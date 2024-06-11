@@ -6,7 +6,7 @@
 .navbar {
     height: 9vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     ul {
@@ -33,6 +33,28 @@
 .navbar ul li a:hover {
     cursor: pointer;
     color: rgba(0, 168, 190, 0.877);
+}
+
+.contactmeoption {
+button {
+    background-color: rgba(0, 168, 190, 0.877);
+    border: 1px solid rgba(0, 168, 190, 0.877);
+    color: rgb(36, 36, 36);
+
+    height: 37px;
+    width: 120px;
+    border-radius: 18px;
+    margin: 30px 40px 20px 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+}
+
+.contactmeoption button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 168, 190, 0.925);
+    border: 1px solid rgba(0, 168, 190, 0.925);
+    transform: scale(1.03);
 }
 
 .section2 {
@@ -130,3 +152,11 @@
 .socialsection img:hover {
     transform: scale(1.04);
 }
+
+.logoimage {
+    img {
+        height: 380px;
+        margin: 0px 50px 0px 0px;
+    }
+}
+
